@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: Black;
+  padding: 20px;
+  text-align: center;
+  color: White;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+.footer {
+	background-color: Black;
+	padding: 20px;
+	text-align: center;
+	color: White;
+}
+h2.padding {
+  padding-left: 50px ;
+}
+h2.padding2 {
+  padding-top: 100px ;
+
+}
+h3.padding {
+  padding-left: 50px ;
+
+}
+
+
+p.padding {
+  padding-left: 50px;
+}
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+}
+li.padding {
+  padding-left: 50px ;
+}
+p.double {border-style: double;}
+.answer {
+  background-color: aquamarine;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
