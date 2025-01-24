@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Thornton Rose RDA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../StyleSheets/RDAStyles.css">
+
+<style>
+<!-- * {box-sizing: border-box} -->
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+<!-- /* Slideshow container */ -->
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+<!-- /* Next & previous buttons */ -->
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+<!-- /* Position the "next button" to the right */ -->
+.next {
+  left: 275px;
+  border-radius: 3px 0 0 3px;
+}
+
+<!-- /* On hover, add a black background color with a little bit see-through */ -->
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+<!-- /* Caption text */ -->
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+<!-- /* Number text (1/4 etc) */ -->
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+<!-- /* The dots/bullets/indicators */ -->
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.column {
+  float: left;
+  width: 50.0%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+}
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Participants</h1>
+</div>
+
+<div class="topnav">
+  <a href="..\Home\Home.html">Home</a>
+  <a href="..\AboutUs\AboutUs.html">About Us</a>
+  <a href="..\Participants\Participants.html">Participants</a>
+  <a href="..\Volunteers\Volunteers.html">Volunteers</a>
+  <a href="..\Horses\Horses.html">Horses</a>
+  <a href="..\Donate\Donate.html">Donate</a>  
+  <a href="..\GDPR\GDPR.html">GDPR</a>  
+  <a href="..\AGM\AGM.html">AGM</a>
+  <a href="..\ContactUs\ContactUs.html">Contact Us</a>
+  <a href="..\Search\Search.html">Search</a>
+</div>
+
+
+<div class="slideshow-container">
+	<div class="row">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 4</div>
+				<div class="column">
+				<img src="..\IMAGES\IMG_0459-881x10241.jpg" alt="IMG_0459-881x10241" style="width:300px;height:100%">
+				</div>
+				<div class="column">
+				<h2>Rider Award Scheme</H2>
+				<p>Most riders participate in the RDA rider award scheme that is adjusted to suit the rider’s ability and aspirations.</p>
+				</div>
+			</div>
+	</div>
+	
+	<div class="row">
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 4</div>
+				<div class="column">
+				<img src="..\IMAGES\Screen-Shot-2011-12-17-at-00.04.23.png" alt="Screen-Shot-2011-12-17-at-00.04.23" style="width:300px;height:100%">
+				</div>
+				<div class="column">
+				<h2>Activities to suit all abilities</H2>
+				<p>Some riders have been at Thornton Rose for many years and are able to ride independently.</p>
+				</div>
+			</div>
+	</div>
+
+
+	<div class="row">
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 4</div>
+				<div class="column">
+				<img src="..\IMAGES\20150822_101208070_iOS.jpg" alt="20150822_101208070_iOS" style="width:300px;height:100%">
+				</div>
+				<div class="column">
+				<h2>Activities for non-riders</H2>
+				<p>Some participants do not want to ride immediately or at all. Other activities in the group are just as much fun!</p>
+				</div>
+			</div>
+	</div>
+
+
+
+	<div class="row">
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<div class="column">
+				<img src="..\IMAGES\20150531_092843703_iOS.jpg" alt="20150531_092843703_iOS" style="width:300px;height:100%">
+				</div>
+				<div class="column">
+				<h2>National Competitions</H2>
+				<p>Thornton Rose has achieved great results in competitions both in the yard and elsewhere in Scotland.</p>
+				</div>
+			</div>
+	</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<br>
+
+<div class="row">
+	<div class="column">
+	<h2 class="padding">A session with us</H2>
+	<p class="padding">If you are expecting to be riding, a coach will help fit you with a riding hat so that you can be safe when onboard the horse. 
+	If you are not riding, but are able, a coach may ask you to wear a riding hat to keep you safe on the ground also.</p>
+	<p class="padding">If the weather is bad we may spend time in the indoor school. On nice days, we may go for a walk with the horses though the woods around Thornton farm.</p>
+	</div>
+	<div class="column">
+	<h2 class="padding">What we offer participants</H2>
+	<p class="padding">We aim to provide an enjoyable fun experience for our participants in a safe environment.</p>
+	<p class="padding">WeBeing around horses&nbsp;provides a range of therapies for all. It helps with balance, co-ordination, communication, social skills, concentration, life skills, confidence and speech.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
+	<img src="..\IMAGES\298-.jpg" alt="298-" style="width:500px;height:100%;vertical-align:middle;margin:0px 50px">
+	</div>
+	<div class="column">
+	<h2 class="padding">How much help will I get?</H2>
+	<p class="padding">Participants will be provided with help according to thier abilities and needs. Our volunteers and coaches are there to will make sure everyone is comfortable and safe with the horses.</p>
+	<h2 class="padding">Parents and Carers</H2>
+	<p class="padding">Each session is around 30 – 45 minutes in length depending on the participant. We ask that parents and carers stay on the yard during the session. Most parents and carers take this as an opportunity to catch up with others and this can be valuable time out. Parents and carers are welcome to come out with a ride or watch for the first few weeks if this will help the participants settle.</p>
+	</div>
+</div>
+
+
+<!-- ************************************
+Frequently asked questions
+************************************ -->
+
+<h2 style="color: white;font-family: verdana;font-size: 300; text-align:center;background-color:black;">FAQ</h2>
+
+<!-- Show on hover box with aquamarine bacground see style for div-->
+
+<h2 class="padding">Place cursor over the question to reveal the answer.</h2>
+
+<ul style="list-style-type:none;">
+<div class="myDIV"><li><h3>Is there a waiting list?</h3></li></div>
+<div class="hide answer"><p>Yes, we have a waiting list but since we match participants to particular horses we are unable to tell you how long the waiting list is. For some it will be short, for others it may be several years. Sorry!</p></div>
+
+
+<div class="myDIV"><li><h3>Are you the only RDA in the area?</h3></li></div>
+<div class="hide answer"><p>Yes, Thornton Rose RDA is the only RDA in Midlothian but we do cater for participants from around the Lothians.</p></div>
+
+<div class="myDIV"><li><h3>What time are the rides?</h3></li></div>
+<div class="hide answer"><p>We operate up to three rides every Wednesday and Saturday. The session start times are 10.30am, 11.30am and 12.15pm. Each session will last 30-45 minutes.</p></div>
+
+<div class="myDIV"><li><h3>How early do I have to arrive?</h3></li></div>
+<div class="hide answer"><p>We like all participants to be there 10 minutes before their session.</p></div>
+
+<div class="myDIV"><li><h3>What should I wear?</h3></li></div>
+<div class="hide answer"><p>We have a range of riding hats available to borrow for sessions depending on the needs of the participant. You do not need any special clothing of your own, however, participants should wear trousers or jogging bottoms and flat, supportive shoes with a heel- such as boots or wellies, and any other weather-appropriate clothing they would normally wear to be outdoors. For example, a top with sleeves, jacket or anorak if it is cool or raining.</p></div>
+
+<div class="myDIV"><li><h3>Which horse will I be with?</h3></li></div>
+<div class="hide answer"><p>We have five horses and your horse will be chosen for the participant by the coaches. This may change session to session for a number of reasons, such as the needs of the participant and needing to rest our ponies.</p></div>
+
+<div class="myDIV"><li><h3>Who will help me?</h3></li></div>
+<div class="hide answer"><p>Each participant will have a team of volunteers with once they arrive as well as one of our coaches or trainee coaches leading a session. The size of each team will depend on the needs of the participant.</p></div>
+
+<div class="myDIV"><li><h3>Is it still on during the school holidays?</h3></li></div>
+<div class="hide answer"><p>We operate during Midlothian school term dates however we do operate some sessions during school holidays. The coaching team will be able to inform you of any changes in our schedule. We may cancel sessions if bad weather makes it unsafe to operate or if we do not have enough volunteers or a coach to run safely.</p></div>
+
+<h2></h2>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<div class="footer">
+<p>Registered as a Scottish Charitable Incorporated Organisation (SCIO). The SCIO was incorporated on the 10 July 2013 as a result of a Change to SCIO application by Thornton Rose RDA SC028617, which was an Unincorporated Association registered as a charity since 28 October 1998.</span><br><span style="color: #ffffff;">Thornton Rose, Riding for the Disabled Thornton Farm, Rosewell, Midlothian EH24 9EF | enquiries@thornton-rose-rda.org.uk</span></p></div>
+</body>
+</html>
