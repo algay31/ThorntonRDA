@@ -47,21 +47,16 @@ h2.padding {
 }
 h2.padding2 {
   padding-top: 100px ;
-
 }
 h3.padding {
   padding-left: 50px ;
-
 }
-
-
 p.padding {
   padding-left: 50px;
 }
 .hide {
   display: none;
-}
-    
+}    
 .myDIV:hover + .hide {
   display: block;
   color: black;
@@ -77,11 +72,4 @@ p.double {border-style: double;}
   margin: 20px;
   padding: 20px;
 }
-.text-watermark {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  font-size: 12px;
-  color: red;
-  opacity: 0.7;
-}
+
