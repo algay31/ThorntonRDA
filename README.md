@@ -2,8 +2,8 @@
  User repository ThorntonRDA
 This is a project for THornton Rose RDA (Riding for the  Disabeled Association), a Non-profit organisation.
 It is the only RDA in the Midlothian area.
-THe sits consists of the following pages
-Home
+The site consists of the following pages
+Index(home)
 About Us
 Particiapants
 Volunteers
