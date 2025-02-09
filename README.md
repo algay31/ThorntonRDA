@@ -1,10 +1,10 @@
 # algay31.github.io
- User repository ThorntonRDA
-This is a project for THornton Rose RDA (Riding for the  Disabeled Association), a Non-profit organisation.
+User repository, "ThorntonRDA"
+This is a project for Thornton Rose RDA (Riding for the  Disabeled Association), a Non-profit organisation.
 It is the only RDA in the Midlothian area.
 The site consists of the following pages
 Index(home)
-About Us
+AboutUs
 Particiapants
 Volunteers
 Horses
